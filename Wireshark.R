@@ -78,7 +78,7 @@ row_outliers <- which(err > 0.05)
 
 
 anom<-wireshark[row_outliers,]
-anom
+
 print("*************Number of rows detected with Anomaly*************")
 nrow(anom)
 print(paste0("******Number of Rows detected as Anomaly:",nrow(anom),"**********"))
