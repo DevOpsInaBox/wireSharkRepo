@@ -1,6 +1,11 @@
 ######Smote Analysis############
+print("**********************Loading Wireshark Data**************************")
+wireshark<-read.csv("wireshar_1.csv",header = T)
 
+print("#######Number of 1s and 0s##############")
 print(table(wireshark$Target))
+
+print("#######Percentage of 1s and 0s##############")
 print(prop.table(table(wireshark$Target)))
 
 print("##################A quick peek to see where we are:######################")
