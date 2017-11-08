@@ -76,8 +76,7 @@ plot(sort(err$Reconstruction.MSE))
 row_outliers <- which(err > 0.05)
 
 
-print("********************Get the Anomaly Detected Rows*********************")
-wireshark[row_outliers,]
+
 anom<-wireshark[row_outliers,]
 anom
 print("*************Number of rows detected with Anomaly*************")
