@@ -8,7 +8,7 @@ library(lattice)
 library(caret)
 library(PRROC)
 library(randomForest)
-setwd("E:\\WireShark Data")
+
 print("**********************Loading Wireshark Data**************************")
 wireshark<-read.csv("wireshar_1.csv",header = T)
 print("************************Response Variable to Factor form**********************")
